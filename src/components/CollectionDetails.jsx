@@ -1,4 +1,3 @@
-// src/components/CollectionDetails.jsx
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import { useCart } from '../contexts/CartContext';

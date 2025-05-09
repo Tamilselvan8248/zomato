@@ -44,61 +44,61 @@ function App() {
       id: 1,
       title: "Great Breakfasts",
       description: "The breakfast must have something to do with happiness...",
-      image: "./breakfast.jpg",
+      image: "/breakfast.jpg",
       items: [
-        { id: 1, name: "English Breakfast", price: 15.99, image: "./english-breakfast.jpg" },
-        { id: 2, name: "Pancake Stack", price: 12.99, image: "./pancakes.jpg" },
-        { id: 3, name: "Avocado Toast", price: 10.99, image: "./avocado-toast.jpg" }
+        { id: 1, name: "English Breakfast", price: 15.99, image: "/where is my party.jpeg" },
+        { id: 2, name: "Pancake Stack", price: 12.99, image: "/Pancakes_Ha_0565.jpg" },
+        { id: 3, name: "Avocado Toast", price: 10.99, image: "/avocadoeggtoast.05.jpg" }
       ]
     },
     {
       id: 2,
       title: "Afternoon Tea",
       description: "Relax with your mid-day cuppa",
-      image: "./afternoon tea.jpeg",
+      image: "/afternoon tea.jpeg",
       items: [
-        { id: 4, name: "Classic Tea Set", price: 25.99, image: "./tea-set.jpg" },
-        { id: 5, name: "Scones Platter", price: 18.99, image: "./scones.jpg" }
+        { id: 4, name: "Classic Tea Set", price: 25.99, image: "/classic-tea-sets.jpg" },
+        { id: 5, name: "Scones Platter", price: 18.99, image: "/Scone Platter.jpeg" }
       ]
     },
     {
       id: 3,
       title: "Michelin Star Restaurants",
       description: "Dine at the best award-winning restaurants",
-      image: "./Michelin Star Restaurants.jpeg",
+      image: "/Michelin Star Restaurants.jpeg",
       items: [
-        { id: 6, name: "Tasting Menu", price: 150.00, image: "./tasting-menu.jpg" },
-        { id: 7, name: "Wine Pairing", price: 80.00, image: "./wine-pairing.jpg" }
+        { id: 6, name: "Tasting Menu", price: 150.00, image: "/testing menu.jpeg" },
+        { id: 7, name: "Wine Pairing", price: 80.00, image: "/WineChocolate_001.webp" }
       ]
     },
     {
       id: 4,
       title: "Veggie Friendly",
       description: "Restaurants serving the best vegetarian fare",
-      image: "./veggie-friendly.webp",
+      image: "/veggie-friendly.webp",
       items: [
-        { id: 8, name: "Buddha Bowl", price: 16.99, image: "./buddha-bowl.jpg" },
-        { id: 9, name: "Veggie Burger", price: 14.99, image: "./veggie-burger.jpg" }
+        { id: 8, name: "Buddha Bowl", price: 16.99, image: "/veggie-friendly.webp" },
+        { id: 9, name: "Veggie Burger", price: 14.99, image: "/veggie-burger.jpg" }
       ]
     },
     {
       id: 5,
       title: "Where's The Party?",
       description: "Lets eat together",
-      image: "./where is my party.jpeg",
+      image: "/where is my party.jpeg",
       items: [
-        { id: 10, name: "Party Platter", price: 45.99, image: "./party-platter.jpg" },
-        { id: 11, name: "Drinks Package", price: 35.99, image: "./drinks.jpg" }
+        { id: 10, name: "Party Platter", price: 45.99, image: "/party platter.jpeg" },
+        { id: 11, name: "Drinks Package", price: 35.99, image: "/drink planer.jpeg" }
       ]
     },
     {
       id: 6,
       title: "Sweet Tooth Heaven",
       description: "Indulge in the city's best desserts and bakeries",
-      image: "./sweet-tooth-heaven.jpg",
+      image: "/sweet-tooth-heaven.jpg",
       items: [
-        { id: 12, name: "Dessert Box", price: 28.99, image: "./dessert-box.jpg" },
-        { id: 13, name: "Ice Cream Set", price: 22.99, image: "./ice-cream.jpg" }
+        { id: 12, name: "Dessert Box", price: 28.99, image: "/dessert PlatterBox02.webp" },
+        { id: 13, name: "Ice Cream Set", price: 22.99, image: "/na-6-glace-ice-cream-bowls.webp" }
       ]
     }
   ];

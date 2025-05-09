@@ -1,11 +1,9 @@
-// src/components/Cart.jsx
 import React from 'react';
 import { useCart } from '../contexts/CartContext';
 
 function Cart() {
   const { cartItems, removeFromCart, updateQuantity } = useCart();
 
-  // Safely calculate total
   const total = Array.isArray(cartItems)
     ? cartItems.reduce((sum, item) => {
         const price = typeof item.price === 'number' ? item.price : 0;
@@ -14,7 +12,6 @@ function Cart() {
       }, 0)
     : 0;
 
-  // Empty cart fallback
   if (!cartItems || cartItems.length === 0) {
     return (
       <div className="container mx-auto p-4 text-center">
