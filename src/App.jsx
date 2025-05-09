@@ -30,6 +30,7 @@ const NavBar = () => {
             </span>
           )}
         </Link>
+        helo
         <a href="#">Login</a>
         <a href="#">Signup</a>
       </div>
