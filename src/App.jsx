@@ -46,7 +46,7 @@ function App() {
       description: "The breakfast must have something to do with happiness...",
       image: "/breakfast.jpg",
       items: [
-        { id: 1, name: "English Breakfast", price: 15.99, image: "/where is my party.jpeg" },
+        { id: 1, name: "English Breakfast", price: 15.99, image: "/Traditional-British-Breakfast-.webp" },
         { id: 2, name: "Pancake Stack", price: 12.99, image: "/Pancakes_Ha_0565.jpg" },
         { id: 3, name: "Avocado Toast", price: 10.99, image: "/avocadoeggtoast.05.jpg" }
       ]
@@ -77,8 +77,8 @@ function App() {
       description: "Restaurants serving the best vegetarian fare",
       image: "/veggie-friendly.webp",
       items: [
-        { id: 8, name: "Buddha Bowl", price: 16.99, image: "/veggie-friendly.webp" },
-        { id: 9, name: "Veggie Burger", price: 14.99, image: "/veggie-burger.jpg" }
+        { id: 8, name: "Buddha Bowl", price: 16.99, image: "/buddha bowl.jpeg" },
+        { id: 9, name: "Veggie Burger", price: 14.99, image: "/Ultimate-Veggie-Burgers.jpg" }
       ]
     },
     {
